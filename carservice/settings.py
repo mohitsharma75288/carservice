@@ -31,8 +31,8 @@ ALLOWED_HOSTS = [127.0.0.1,'localhost', 'http://codemohitapp.herokuapp.com/','ht
 # Application definition
 
 INSTALLED_APPS = [
-    'adminstrator',
-    'home',
+    'adminstrator.apps.AdminstratorConfig',
+    'home.apps.HomeConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
