@@ -1,1 +1,3 @@
 web: gunicorn carservice.wsgi
+gunicorn app:adminstrator
+gunicorn app:home
